@@ -11,9 +11,6 @@
     <th>Constraints</th>
   </tr>
 
-  <tr>
-    <td colspan="5"><strong>Sample Request:</strong> <a href="http://insitu-api.stcenter.net/activities?sd=2022-07-01&sensor_ids=34653,9678,90465,14859,56109,142608,14973,55503,73135,39885&provider=OpenAQ-GMU-Raw" target="_blank">https://insitu-api.stcenter.net/activities?sd=2022-07-01&sensor_ids=34653,9678,90465,14859,56109,142608,14973,55503,73135,39885&provider=OpenAQ-GMU-Raw</a></td>
-  </tr>
   <!--   <p>OpenAQ Raw Hourly</p> -->
     <tr>
     <td rowspan="4">Raw-Hourly</td>
@@ -32,7 +29,7 @@
   </tr>
   <tr>
     <td>activities (In progress)</td>
-    <td>sensor_ids, sd (start date), ed (end date), provider</td>
+    <td></td>
     <td></td>
     <td></td>
     <td>

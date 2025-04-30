@@ -1,7 +1,6 @@
 ## OpenAQ GMU InSitu API Endpoints
 
 ### Below are the details of the InSitu API endpoints to get sensor and reading data.
-
 <table>
   <tr>
     <th>Processing Level</th>
@@ -13,7 +12,7 @@
   </tr>
 
   <tr>
-    <td rowspan="2">Hourly</td>
+    <td rowspan="3">Hourly</td>
     <td>sensor_data_openaq</td>
     <td>date, min_lon, max_lon, min_lat, max_lat, processing_level</td>
     <td>variable (pm2_5, temperature, humidity)</td>
@@ -32,5 +31,13 @@
         https://insitu-api.stcenter.net/sensor_data_openaq?...
       </a>
     </td>
+  </tr>
+
+  <tr>
+    <td>activities (In progress)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>

@@ -33,9 +33,9 @@
     <td></td>
     <td>
       <ul>
-          <li>Maximum of 500 sensors allowed per request.</li>
+          <!-- <li>Maximum of 500 sensors allowed per request.</li>
           <li>An end date is mandatory for each request.</li>
-          <li>The time span between the start date and end date must not exceed 7 days.</li>
+          <li>The time span between the start date and end date must not exceed 7 days.</li> -->
       </ul>
     </td>
     <td></td>

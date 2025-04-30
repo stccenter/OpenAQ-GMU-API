@@ -12,21 +12,20 @@
   </tr>
 
   <!--   <p>OpenAQ Raw Hourly</p> -->
-    <tr>
+  <tr>
     <td rowspan="4">Raw-Hourly</td>
-    <td>sensor_data</td>
-    <td>date, min_lon, max_lon, min_lat, max_lat, provider</td>
+    <td>sensor_data_openaq</td>
+    <td>date, min_lon, max_lon, min_lat, max_lat, provider, processing_level</td>
     <td>variable (can be pm2_5, temperature, or humidity)</td>
-    <td>      
-      <ul>
-        <li>variable: pm2_5</li>
-      </ul>
-    </td>
+    <td> <ul><li>variable: pm2_5</li> </ul> </td>
     <td>No specific constraints</td>
   </tr>
+
   <tr>
-    <td colspan="5"><strong>Sample Request:</strong> <a href="https://insitu-api.stcenter.net/sensor_data_openaq?date=2024-01-12&variable=pm2_5&min_lon=-123.0&max_lon=-122.0&min_lat=37.0&max_lat=38.0&provider=Clarity&processing_level=hourly" target="_blank">https://insitu-api.stcenter.net/sensor_data_openaq?date=2024-01-12&variable=pm2_5&min_lon=-123.0&max_lon=-122.0&min_lat=37.0&max_lat=38.0&provider=Clarity&processing_level=hourly</a></td>
+    <td colspan="5"><strong>Sample Request:</strong> <a href="https://insitu-api.stcenter.net/sensor_data_openaq?date=2024-01-12&variable=pm2_5&min_lon=-123.0&max_lon=-122.0&min_lat=37.0&max_lat=38.0&provider=Clarity&processing_level=hourly" target="_blank">https://insitu-api.stcenter.net/sensor_data_openaq?date=2024-01-12&variable=pm2_5&min_lon=-123.0&max_lon=-122.0&min_lat=37.0&max_lat=38.0&provider=Clarity&processing_level=hourly</a>
+    </td>
   </tr>
+  
   <tr>
     <td>activities (In progress)</td>
     <td></td>
@@ -39,6 +38,7 @@
           <li>The time span between the start date and end date must not exceed 7 days.</li>
       </ul>
     </td>
+    <td></td>
   </tr>
   
 </table>

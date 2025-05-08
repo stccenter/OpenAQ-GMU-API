@@ -47,7 +47,7 @@
   </tr>
     <tr>
     <td colspan="5"><strong>Sample Request:</strong>
-      <a href="https://insitu-api.stcenter.net/activities_openaq?sensor_ids=101,102,103&sd=2024-01-12&ed=2024-01-13&provider=Clarity&processing_level=hourly" target="_blank">
+      <a href="https://insitu-api.stcenter.net/activities_openaq?sd=2024-01-12&ed=2024-01-13&sensor_ids=2001417,4448663,2001466,2001397&provider=Clarity&processing_level=hourly" target="_blank">
         https://insitu-api.stcenter.net/activities_openaq?sd=2024-01-12....
       </a>
     </td>

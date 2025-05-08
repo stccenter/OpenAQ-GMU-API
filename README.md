@@ -12,7 +12,7 @@
   </tr>
 
   <tr>
-    <td rowspan="3">Hourly</td>
+    <td rowspan="5">Hourly</td>
     <td>sensor_data_openaq</td>
     <td>date, min_lon, max_lon, min_lat, max_lat, processing_level</td>
     <td>variable (pm2_5, temperature, humidity)</td>

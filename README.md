@@ -35,9 +35,14 @@
 
   <tr>
     <td>activities (In progress)</td>
+    <td>sensor_ids, sd (start date), ed (end date), provider, processing_level</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>      
+      <ul>
+          <li>Maximum of 500 sensors allowed per request.</li>
+          <li>An end date is mandatory for each request.</li>
+          <li>The time span between the start date and end date must not exceed 7 days.</li>
+      </ul></td>
   </tr>
 </table>

@@ -45,4 +45,11 @@
           <li>The time span between the start date and end date must not exceed 7 days.</li>
       </ul></td>
   </tr>
+    <tr>
+    <td colspan="5"><strong>Sample Request:</strong>
+      <a href="https://insitu-api.stcenter.net/activities_openaq?sensor_ids=101,102,103&sd=2024-01-12&ed=2024-01-13&provider=Clarity&processing_level=hourly" target="_blank">
+        https://insitu-api.stcenter.net/activities_openaq?...
+      </a>
+    </td>
+  </tr>
 </table>

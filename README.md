@@ -34,7 +34,7 @@
   </tr>
 
   <tr>
-    <td>activities</td>
+    <td>activities_openaq</td>
     <td>sensor_ids, sd (start date), ed (end date), provider, processing_level</td>
     <td></td>
     <td></td>

@@ -69,3 +69,38 @@
   </tr>
 
 </table>
+
+### This API endpoint is used to retrieve training data for calibration modeling.
+<table>
+  <tr>
+    <th>Endpoint</th>
+    <th>Required Variables</th>
+    <th>Optional Variables</th>
+    <th>Default Values</th>
+    <th>Constraints</th>
+  </tr>
+
+  <tr>
+    <td>training_data_openaq</td>
+    <td>state_code, county_code, provider, target</td>
+    <td>distance, corr_threshold, type</td>
+    <td>
+      <ul>
+        <li>provider: Clarity</li>
+        <li>target: Airnow</li>
+        <li>corr_threshold: 0.4</li>
+        <li>type: csv</li>
+      </ul>
+    </td>
+    <td>No specific constraints</td>
+  </tr>
+
+  <tr>
+    <td colspan="5"><strong>Sample Request:</strong><br>
+      <a href="https://insitu-api.stcenter.net/training_data_openaq?state_code=06&county_code=001&distance=5000&type=csv&provider=Clarity&corr_threshold=0.4&target=Airnow" target="_blank">
+        https://insitu-api.stcenter.net/training_data_openaq?...
+      </a>
+    </td>
+  </tr>
+</table>
+
